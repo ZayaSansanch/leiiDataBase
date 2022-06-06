@@ -11,13 +11,14 @@ import (
 
 func ComNewDataBase() {
 	var name string
-	var mesto string
+	// var mesto string
 
 	fmt.Println("What name?")
 	fmt.Scan(&name)
 
-	fmt.Println("Where?")
-	fmt.Scan(&mesto)
+	// fmt.Println("Where?")
+	// fmt.Scan(&mesto)
 
-	NewDataBase(mesto, name)
+	// NewDataBase(mesto, name)
+	NewDataBase(name)
 }
